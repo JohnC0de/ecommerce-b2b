@@ -10,7 +10,8 @@
     "@types/node": "^18.11.18",
     "esbuild": "^0.14.54",
     "postcss": "^8.4.21",
-    "solid-start-node": "^0.2.15",
+    "prettier": "^2.8.3",
+    "solid-start-node": "^0.2.16",
     "typescript": "^4.9.4",
     "vite": "^3.2.5"
   },
@@ -18,8 +19,8 @@
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.7.0",
     "solid-js": "^1.6.9",
-    "solid-start": "^0.2.15",
-    "undici": "^5.15.1"
+    "solid-start": "^0.2.16",
+    "undici": "^5.15.2"
   },
   "engines": {
     "node": ">=16.8"
