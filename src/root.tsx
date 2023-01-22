@@ -1,18 +1,9 @@
 // @refresh reload
-import { Suspense } from "solid-js";
-import {
-  A,
-  Body,
-  ErrorBoundary,
-  FileRoutes,
-  Head,
-  Html,
-  Meta,
-  Routes,
-  Scripts,
-  Title,
-} from "solid-start";
-import "./root.css";
+import { Suspense } from "solid-js"
+import { A, Body, ErrorBoundary, FileRoutes, Head, Html, Meta, Routes, Scripts, Title } from "solid-start"
+
+import "virtual:uno.css"
+import "@unocss/reset/tailwind.css"
 
 export default function Root() {
   return (
@@ -35,5 +26,5 @@ export default function Root() {
         <Scripts />
       </Body>
     </Html>
-  );
+  )
 }
