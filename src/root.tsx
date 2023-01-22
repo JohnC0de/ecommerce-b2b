@@ -1,9 +1,9 @@
 // @refresh reload
 import { Suspense } from "solid-js"
-import { A, Body, ErrorBoundary, FileRoutes, Head, Html, Meta, Routes, Scripts, Title } from "solid-start"
+import { Body, ErrorBoundary, FileRoutes, Head, Html, Meta, Routes, Scripts, Title } from "solid-start"
 
-import "virtual:uno.css"
 import "@unocss/reset/tailwind.css"
+import "virtual:uno.css"
 import Navbar from "./components/Navbar"
 
 export default function Root() {
@@ -14,13 +14,11 @@ export default function Root() {
         <Meta charset="utf-8" />
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <Body class="flex flex-col min-h-screen">
+      <Body>
         <Suspense>
           <ErrorBoundary>
-            <div>
+            <div class="flex flex-col min-h-screen">
               <Navbar />
-            </div>
-            <div>
               <Routes>
                 <FileRoutes />
               </Routes>
