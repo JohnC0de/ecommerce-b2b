@@ -1,8 +1,7 @@
 import { A } from "solid-start"
 
-export default function Home() {
+export default function HomePage() {
   return (
-    // The main tag is right bellow the navbar, make so it expands to the full height taking into account the navbar height
     <main class="flex flex-col flex-1 items-center justify-center text-center gap-4">
       <h1 class="text-6xl font-bold">E-Commerce B2B</h1>
       <div class="flex flex-col items-center gap-4">
