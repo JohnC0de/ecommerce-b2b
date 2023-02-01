@@ -9,15 +9,15 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^18.11.18",
-    "@unocss/reset": "^0.49.1",
-    "@unocss/transformer-variant-group": "^0.49.1",
+    "@unocss/reset": "^0.49.2",
+    "@unocss/transformer-variant-group": "^0.49.2",
     "esbuild": "^0.17.5",
     "postcss": "^8.4.21",
     "prettier": "^2.8.3",
-    "solid-start-node": "^0.2.17",
-    "solid-start-vercel": "^0.2.17",
+    "solid-start-node": "^0.2.18",
+    "solid-start-vercel": "^0.2.18",
     "typescript": "^4.9.5",
-    "unocss": "^0.49.1",
+    "unocss": "^0.49.2",
     "vite": "^3.2.5"
   },
   "dependencies": {
@@ -25,7 +25,7 @@
     "@solidjs/router": "^0.7.0",
     "axios": "^1.3.0",
     "solid-js": "^1.6.10",
-    "solid-start": "^0.2.17",
+    "solid-start": "^0.2.18",
     "undici": "^5.16.0",
     "zod": "^3.20.2"
   },
